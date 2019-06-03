@@ -121,7 +121,8 @@ button {
 
 .top-content {
 	display: flex;
-	padding: 15px;
+  justify-content: space-between;
+	padding: 30px 0;
 }
 
 .middle-img {
@@ -130,7 +131,19 @@ button {
 
 .bottom-content {
 	display: flex;
-	padding: 15px;
+  justify-content: space-between;
+	padding: 30px 0;
+}
+
+.services {
+  width: 32%;
+}
+
+.product {
+  width: 32%;
+}
+.vision {
+  width: 32%;
 }
 
 .copyright {
