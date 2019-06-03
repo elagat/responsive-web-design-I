@@ -71,22 +71,19 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 header nav {
-	margin-top: 40px;
+	display: flex;
+  align-items: center;
 }
 
 header nav a {
-	margin: 0 20px;
+	margin: 0 60px 0 0;
 	color: gray;
   text-decoration: none;
-}
-
-.logo {
-	position: relative;
-	left: 130px;
-	top: 20px;
 }
 
 .intro {
