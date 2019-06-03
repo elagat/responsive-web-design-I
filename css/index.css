@@ -89,26 +89,29 @@ header nav a {
 .intro {
 	display: flex;
 	justify-content: space-around;
+  align-items: center;
+  height: 450px;
 }
 
 .left-intro {
-	padding: 80px 0;
-}
-
-.right-intro {
-	padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-	font-size: 90px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	font-size: 70px;
 }
 
-button {
-	position: relative;
-	left: 130px;
+button {button {
+	background-color: inherit;
+	border: solid black 2px;
+	height: 40px;
+	width: 145px;
+	margin: 15px 0;
+  text-align: center;
+  text-decoration: none;
+	font: inherit;
 }
 
 .top-content {
